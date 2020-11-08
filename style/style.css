@@ -78,6 +78,16 @@ top: 90%;
 z-index: -1;
 }
 
+.newsletter-title{
+  margin-bottom: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #a92cda;
+}
+
+.hs-button{
+  background-color: #a92cda;
+}
+
 
 /* Typewriter */
 
@@ -85,7 +95,7 @@ z-index: -1;
     width: auto;
     display: inline-block;
     font-family: 'IBM Plex Mono', monospace;
-    color: #942bb4;
+    color: #a92cda;
     overflow:  hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
