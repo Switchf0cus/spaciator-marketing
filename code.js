@@ -1,8 +1,7 @@
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-}
-
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    
+   }else
+   {
 function update(e){
     var x = e.clientX || e.touches[0].clientX
     var y = e.clientY || e.touches[0].clientY
@@ -13,3 +12,10 @@ function update(e){
   
   document.addEventListener('mousemove',update)
   document.addEventListener('touchmove',update)
+   }
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+

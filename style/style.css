@@ -57,6 +57,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    
     justify-content: center;
 }
 
@@ -69,11 +70,12 @@
 .title-container{
     width: 100%;
     display: flex;
-
 }
 
 .newsletter{
-
+position: absolute;
+top: 90%;
+z-index: -1;
 }
 
 
