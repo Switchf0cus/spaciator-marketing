@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+
 }
 
 .text{
@@ -54,7 +54,7 @@
 }
 
 .text-content{
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,12 +63,16 @@
 .description{
     width: 40vw;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .title-container{
     width: 100%;
     display: flex;
+
+}
+
+.newsletter{
 
 }
 
@@ -80,7 +84,7 @@
     display: inline-block;
     font-family: 'IBM Plex Mono', monospace;
     color: #942bb4;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    overflow:  hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
